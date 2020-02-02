@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Meetup</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header" id="header">
+        <nav class="header__nav">
+          <h1 class="logo header__logo">
+            <a href="/"><img src="images/logo.png" alt="logo"/></a>
+          </h1>
+          <ul class="header__nav-links">
+            <li class="header__nav-link"><a href="#">EVENT DETAILS</a></li>
+            <li class="header__nav-link"><a href="#">SPEAKERS</a></li>
+            <li class="header__nav-link"><a href="#">SPONSORS</a></li>
+            <li class="header__nav-link"><a href="#">PAST EVENTS</a></li>
+            <li class="header__nav-link"><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="header__timer timer">
+          <div class="timer__item">
+            <span class="timer__value" id="days">20</span>
+            <span class="timer__span">DAYS</span>
+          </div>
+          <div class="timer__item">
+            <span class="timer__value"> : </span>
+            <span class="timer__span"> </span>
+          </div>
+          <div class="timer__item">
+            <span class="timer__value" id="hours">03</span>
+            <span class="timer__span">HOURS</span>
+          </div>
+          <div class="timer__item">
+            <span class="timer__value"> : </span>
+            <span class="timer__span"> </span>
+          </div>
+          <div class="timer__item">
+            <span class="timer__value" id="minutes">06</span>
+            <span class="timer__span">MINUTES</span>
+          </div>
+          <div class="timer__item">
+            <span class="timer__value"> : </span>
+            <span class="timer__span"> </span>
+          </div>
+          <div class="timer__item">
+            <span class="timer__value" id="seconds">52</span>
+            <span class="timer__span">SECONDS</span>
+          </div>
+        </div>
+        <div class="header__background">
+          <img
+            src="images/header__icon-1.png"
+            alt="img1"
+            class="header__image header__image-1"
+          />
+          <img
+            src="images/header__icon-2.png"
+            alt="img2"
+            class="header__image header__image-2"
+          />
+          <img
+            src="images/header__icon-3.png"
+            alt="img3"
+            class="header__image header__image-3"
+          />
+          <img
+            src="images/header__icon-4.png"
+            alt="img4"
+            class="header__image header__image-4"
+          />
+          <img
+            src="images/header__icon-5.png"
+            alt="img5"
+            class="header__image header__image-5"
+          />
+        </div>
+      </header>
+      <section class="sign-up">
+        <div class="sign-up__text">
+          <h2 class="sign-up__title title">Welcome!</h2>
+          <p class="sign-up__paragraph text">
+            The biggest envato community meetup in Bangladesh is happening right
+            now! And you can be a part of it too...
+          </p>
+          <p class="sign-up__paragraph text">
+            Get together with members of the Envato community to talk shop,
+            trade war stories, make new friends and see the faces behind the
+            avatars. Whether you’re an author on Envato Market, a client on
+            Envato Studio, or a learner on Tuts+, you are invited!
+          </p>
+          <p class="sign-up__paragraph text">
+            It doesn’t matter as long as you have the motivation and interest to
+            work at the envato and bring cookies to our event. Just kidding, but
+            we don’t mind having more cookies! ;)<br />
+            Head over and fill up the sign up form here so that we can keep
+            track of our guests. Don’t forget to register on our
+            <a href="#" class="sign-up__paragraph-link">invite</a> page here
+            too!
+          </p>
+        </div>
+        <form action="#" class="sign-up__form form">
+          <h3 class="form__title">Sign up for our event</h3>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+            class="form__input"
+          />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            class="form__input"
+          />
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            placeholder="Phone number"
+            class="form__input"
+          />
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Envato Username"
+            class="form__input"
+          />
+          <button type="submit" class="form__submit-button button">
+            Let me in!
+          </button>
+          <p class="form__text">
+            Hurry up, Limited seats availble<br />
+            *we will never spam your email
+          </p>
+        </form>
+      </section>
+      <section class="details">
+        <div class="details__card">
+          <img
+            src="images/image-1.png"
+            alt="community"
+            class="details__image"
+          />
+          <h3 class="details__card-title">Community</h3>
+          <p class="details__card-text text">
+            Meet the Community you’ve always talked with, in real life! This
+            meetup will be all about authors engaging each other with
+            interesting coversation and topics. We will have loads of fun.
+          </p>
+        </div>
+        <div class="details__card">
+          <img
+            src="images/image-2.png"
+            alt="community"
+            class="details__image"
+          />
+          <h3 class="details__card-title">Talk Shop</h3>
+          <p class="details__card-text text">
+            In this meetup you will get to know the marketplaces better, because
+            that’s why were all here for right? Learn a few tips and tricks from
+            experienced authors from all over the country.
+          </p>
+        </div>
+        <div class="details__card">
+          <img
+            src="images/image-3.png"
+            alt="community"
+            class="details__image"
+          />
+          <h3 class="details__card-title">War Stories</h3>
+          <p class="details__card-text text">
+            Gather round fellow authors! <br />
+            Hear the stories of success from your favorite authors and learn how
+            they we able to tackle their problems and become successful.
+          </p>
+        </div>
+      </section>
+      <section class="schedule">
+        <h2 hidden>Schedule</h2>
+        <table class="schedule__table table">
+          <tr>
+            <th class="table__header">Time</th>
+            <th class="table__header">Stuff that will happen</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td class="table__time">10am - 12pm</td>
+            <td class="table__stuff">
+              Introduction and presentations about Envato
+            </td>
+            <td class="table__icon">
+              <img src="images/plus.png" alt="plus" />
+            </td>
+          </tr>
+          <tr>
+            <td class="table__time">12pm - 02pm</td>
+            <td class="table__stuff">
+              Sessions by honorable guests and Speakers
+            </td>
+            <td class="table__icon">
+              <img src="images/plus.png" alt="plus" />
+            </td>
+          </tr>
+          <tr>
+            <td class="table__time">02pm - 03pm</td>
+            <td class="table__stuff">Break and Mingle time with the authors</td>
+            <td class="table__icon">
+              <img src="images/plus.png" alt="plus" />
+            </td>
+          </tr>
+          <tr>
+            <td class="table__time">03pm - 05pm</td>
+            <td class="table__stuff">
+              Portfolio Review, Rewards and Ending Presentation
+            </td>
+            <td class="table__icon">
+              <img src="images/plus.png" alt="plus" />
+            </td>
+          </tr>
+        </table>
+
+        <p class="schedule__text text">
+          Please keep in mind that the timings may differ according to the flow
+          of the event. The even is actually day long and we do plan to finish
+          it within our set time but it doesn’t have to be, if we all agree to
+          hangour for some time more, what harm could it do? :)
+        </p>
+      </section>
+      <section class="reward">
+        <h2 class="reward__title title text_white">We reward the Elites!</h2>
+        <p class="reward__text text text_white">
+          Are you an Elite author in the Envato Marketplaces? If so we are proud
+          of you! We want to give our thanks in achieving great success in the
+          marketplace and we want to make known to the people of our country
+          that you are amazing! Our Elite gifting program includes giving you
+          special merchandize from our community and also promote your works in
+          our community.
+        </p>
+        <p class="reward__text text text_white">
+          All you have to do is contact us by clicking the button here and then
+          its just going to the event, saying something motivational and taking
+          that swag while looking amazing infront of thousands of other
+          community members.
+        </p>
+        <p class="reward__text text text_white">
+          *Be advised, we will only give you Elite thank you swag for each level
+          of elite you cross. <br />
+          That means if you do not cross to the next elite level before the next
+          event, you cannot claim your prizes.
+        </p>
+        <a href="#" class="reward__link button">Bring on the swag!</a>
+        <div class="reward__background"></div>
+        <img src="images/image-4.png" alt="" class="reward__image" />
+      </section>
+      <section class="speakers">
+        <h2 class="speakers__title title">Speakers</h2>
+        <p class="speakers__subtitle text">
+          Meet our Valuable speakers who will be each giving 10 minutes sessions
+          on different subjects regarding being a digital product author,
+          working at envato and marketing your business. <br />
+          Hope you will have a great time listening to our presentations!
+        </p>
+        <div class="speakers__cards">
+          <div class="speakers__cards-row">
+            <div class="speakers__card">
+              <h3 class="speakers__card-title">Shahriyer Shuvo</h3>
+              <div class="speakers__card-line"></div>
+              <p class="speakers__card-text">
+                More about selling in the Envato Marketplaces
+              </p>
+              <ul class="speakers__card-links">
+                <li class="speakers__card-link speakers__card-link_facebook">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_twitter">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_instagram">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_google-plus">
+                  <a href="#"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="speakers__card">
+              <h3 class="speakers__card-title">Shahriyer Shuvo</h3>
+              <div class="speakers__card-line"></div>
+              <p class="speakers__card-text">
+                More about selling in the Envato Marketplaces
+              </p>
+              <ul class="speakers__card-links">
+                <li class="speakers__card-link speakers__card-link_facebook">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_twitter">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_instagram">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_google-plus">
+                  <a href="#"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="speakers__card">
+              <h3 class="speakers__card-title">Shahriyer Shuvo</h3>
+              <div class="speakers__card-line"></div>
+              <p class="speakers__card-text">
+                More about selling in the Envato Marketplaces
+              </p>
+              <ul class="speakers__card-links">
+                <li class="speakers__card-link speakers__card-link_facebook">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_twitter">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_instagram">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_google-plus">
+                  <a href="#"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="speakers__cards-row">
+            <div class="speakers__card">
+              <h3 class="speakers__card-title">Shahriyer Shuvo</h3>
+              <div class="speakers__card-line"></div>
+              <p class="speakers__card-text">
+                More about selling in the Envato Marketplaces
+              </p>
+              <ul class="speakers__card-links">
+                <li class="speakers__card-link speakers__card-link_facebook">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_twitter">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_instagram">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_google-plus">
+                  <a href="#"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="speakers__card speakers__card_central">
+              <img src="images/image-5.png" alt="img5" />
+            </div>
+            <div class="speakers__card">
+              <h3 class="speakers__card-title">Shahriyer Shuvo</h3>
+              <div class="speakers__card-line"></div>
+              <p class="speakers__card-text">
+                More about selling in the Envato Marketplaces
+              </p>
+              <ul class="speakers__card-links">
+                <li class="speakers__card-link speakers__card-link_facebook">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_twitter">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_instagram">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_google-plus">
+                  <a href="#"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="speakers__cards-row">
+            <div class="speakers__card">
+              <h3 class="speakers__card-title">Shahriyer Shuvo</h3>
+              <div class="speakers__card-line"></div>
+              <p class="speakers__card-text">
+                More about selling in the Envato Marketplaces
+              </p>
+              <ul class="speakers__card-links">
+                <li class="speakers__card-link speakers__card-link_facebook">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_twitter">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_instagram">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_google-plus">
+                  <a href="#"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="speakers__card">
+              <h3 class="speakers__card-title">Shahriyer Shuvo</h3>
+              <div class="speakers__card-line"></div>
+              <p class="speakers__card-text">
+                More about selling in the Envato Marketplaces
+              </p>
+              <ul class="speakers__card-links">
+                <li class="speakers__card-link speakers__card-link_facebook">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_twitter">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_instagram">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_google-plus">
+                  <a href="#"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="speakers__card">
+              <h3 class="speakers__card-title">Shahriyer Shuvo</h3>
+              <div class="speakers__card-line"></div>
+              <p class="speakers__card-text">
+                More about selling in the Envato Marketplaces
+              </p>
+              <ul class="speakers__card-links">
+                <li class="speakers__card-link speakers__card-link_facebook">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_twitter">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_instagram">
+                  <a href="#"></a>
+                </li>
+                <li class="speakers__card-link speakers__card-link_google-plus">
+                  <a href="#"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sponsor">
+        <h2 class="sponsor__title title text_white">Sponsor Our Event!</h2>
+        <p class="sponsor__text text text_white">
+          If you want to help us making this event lively and successful, help
+          us by sponsoring our event! <br />
+          This will help us bring in more people, have better livestreaming
+          equipment, maybe even our own chef <br />
+          You can also sponsor us by giving away free swag at the event!
+        </p>
+        <p class="sponsor__text text text_white">
+          Here’s who have sponsored us already:
+        </p>
+        <div class="sponsor__images">
+          <img
+            src="images/image-6.png"
+            alt="img6"
+            class="sponsor__image sponsor__image-1"
+          />
+          <img
+            src="images/image-7.png"
+            alt="img7"
+            class="sponsor__image sponsor__image-2"
+          />
+          <img
+            src="images/image-8.png"
+            alt="img8"
+            class="sponsor__image sponsor__image-3"
+          />
+        </div>
+        <a href="#" class="sponsor__button button">Sponsor Us</a>
+        <div class="sponsor__background"></div>
+      </section>
+      <section class="past-events">
+        <h2 class="past-events__title title">Past Events</h2>
+        <p class="past-events__text text">
+          Check out the photos of our previous events where we rocked with a lot
+          of Famous and enthusiatic authors! We’re always planning to make our
+          future events feel fresh and fun to be at. :)
+        </p>
+        <div class="past-events__items">
+          <div class="past-events__row past-events__row-1">
+            <div class="past-events__item past-events __item-1"></div>
+            <div class="past-events__item past-events __item-2"></div>
+          </div>
+          <div class="past-events__row past-events__row-2">
+            <div class="past-events__item past-events __item-3"></div>
+            <div class="past-events__item past-events __item-4"></div>
+          </div>
+        </div>
+        <a href="#" class="past-events__link button button_dark">View More</a>
+      </section>
+      <section class="contact">
+        <h2 hidden>Contact us</h2>
+        <div class="contact__inner">
+          <div class="contact__address">
+            <img
+              src="images/image-9.png"
+              alt="address"
+              class="contact__image"
+            />
+            <address class="contact__text">
+              Lorem Ipsum Avenue, 420/2 elm street, Melbourne, Sydney - 2122,
+              Kingdom of Australia
+            </address>
+            <a href="#" class="contact__link button">View Map</a>
+          </div>
+          <form action="#" class="contact__form">
+            <input
+              type="text"
+              name="email"
+              id="contact__email"
+              placeholder="Enter your email"
+              class="contact__input contact__input_text"
+            />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Type your message"
+              class="contact__input contact__input_textarea"
+            ></textarea>
+            <button type="submit" class="contact__submit button button_dark">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+      <footer class="footer">
+        <ul class="footer__social-links">
+          <li class="footer__social-link footer__social-link_facebook">
+            <a href="#"></a>
+          </li>
+          <li class="footer__social-link footer__social-link_twitter">
+            <a href="#"></a>
+          </li>
+          <li class="footer__social-link footer__social-link_instagram">
+            <a href="#"></a>
+          </li>
+          <li class="footer__social-link footer__social-link_google-plus">
+            <a href="#"></a>
+          </li>
+        </ul>
+        <p class="footer__copyright">
+          Hope we see you at the event! <br />
+          All Rights Reserved. Envato Bangladesh &copy; 2020
+        </p>
+      </footer>
+      <a href="#header" class="go-up-button"></a>
+    </div>
+  </body>
+</html>
