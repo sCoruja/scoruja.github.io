@@ -1,0 +1,54 @@
+@font-face {
+  src: url('../fonts/Belgrad Bold.ttf') format('truetype');
+  font-family: "Belgrad";
+  font-weight: bold;
+}
+@font-face {
+  src: url('../fonts/bernadette.ttf');
+  font-family: 'Bernadette';
+}
+@font-face {
+    src: url('../fonts/latobold.ttf');
+    font-family: 'Lato';
+    font-weight: 700;
+}
+@font-face {
+    src: url('../fonts/latoheavy.ttf');
+    font-family: 'Lato';
+    font-weight: 600;
+}
+@font-face {
+    src: url('../fonts/latoitalic.ttf');
+    font-family: 'Lato';
+    font-style: italic;
+}
+@font-face {
+    src: url('../fonts/latolight.ttf');
+    font-family: 'Lato';
+    font-weight: light;
+}
+@font-face {
+    src: url('../fonts/latomedium.ttf');
+    font-family: 'Lato';
+    font-weight: 500;
+}
+@font-face {
+    src: url('../fonts/latoregular.ttf');
+    font-family: 'Lato';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url('../fonts/MyriadPro BlackCond.otf');
+    font-family: 'MyriadPro';
+}
+
+@font-face{
+  src: url('../fonts/BRLNSDB.TTF');
+  font-family: 'Berlin Sans';
+}
+
+@font-face{
+    src: url('../fonts/fontawesome-webfont.ttf');
+    font-family: 'FA';
+}
