@@ -1,0 +1,16 @@
+.logo{
+    width: 77px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &_black{
+        background-image: url('../../images/Logo.svg');
+    }
+    &_white{
+        background-image: url('../../images/Logo-1.svg');
+    }
+
+
+}

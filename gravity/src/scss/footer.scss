@@ -1,0 +1,89 @@
+.footer {
+    background-color: #515151;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0 40px;
+        &:first-of-type{
+            border-bottom: 1px solid rgba($color: #ffffff, $alpha: .2); 
+        }
+        @media (max-width:991px){
+            flex-direction: column;
+        }
+    }
+    &__links{
+        margin: 15px 0;
+    }
+    &__link {
+        color: #fff;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        text-decoration: none;
+        margin-right: 30px;
+        transition: ease .5s;
+
+        &_gray, &:hover {
+            opacity: 0.4;
+        }
+        &_gray:hover{
+            opacity: 1;
+        }
+
+        @media (max-width:991px){
+            display: block;
+            margin: 5px auto;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 15px 0;
+    }
+
+    &__input {
+        font-size: 18px;
+        line-height: 28px;
+        color: #222222;
+        padding-left: 20px;
+        margin-right: 15px;
+        min-height: 50px;
+        margin: 10px;
+    }
+
+    &__button{
+        margin: 10px;
+    }
+
+    &__social-link{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        opacity: .2;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        margin-left: 15px;
+        transition: ease .5s;
+        &_facebook{
+            background-image: url(../images/Icon/Social/facebook.svg);
+            background-size: contain;
+        }
+        &_google{
+            background-image: url(../images/Icon/Social/google.svg);
+        }
+        &_linkedin{
+            background-image: url(../images/Icon/Social/Linkedin.svg);
+        }
+        &_twitter{
+            background-image: url(../images/Icon/Social/Twitter.svg);
+        }
+        &:hover{
+            opacity: 1;
+        }
+    }
+}

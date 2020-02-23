@@ -1,0 +1,68 @@
+.clients {
+    padding: 60px 0;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 0;
+        @media (max-width:991px){
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+
+    &__text-heading {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: #222222;
+        margin-bottom: 17px;
+    }
+
+    &__paragraph {
+        max-width: 450px;
+        margin: 0;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: #222222;
+        opacity: 0.7;
+    }
+    &__link{
+        display: block;
+        width: 80px;
+        height: 80px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: .15;
+        transition: ease .5s;
+        &:hover{
+            opacity: 1;
+        }
+        &_xiaomi{
+            background-image: url(../images/xiaomi.svg);
+        }
+        &_tinder{
+            background-image: url(../images/tinder.svg);
+        }
+        &_apple{
+            background-image: url(../images/apple.svg);
+        }
+        &_nike{
+            background-image: url(../images/nike.svg);
+            width: 150px;
+        }
+        &_amd{
+            background-image: url(../images/amd.svg);
+        }
+        @media (max-width:991px){
+            margin: 15px 0;
+        }
+    }
+}

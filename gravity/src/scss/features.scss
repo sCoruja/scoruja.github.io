@@ -1,0 +1,109 @@
+$bg-color: #f4f4f4;
+
+$xs-max: 575px;
+$sm-min: 576px;
+$sm-max: 767px;
+$md-min: 768px;
+$md-max: 991px;
+$lg-min: 992px;
+$lg-max: 1199px;
+$xl-min: 1200px;
+
+.features {
+    background-color: $bg-color;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__images {
+        position: relative;
+        flex: 1;
+        padding: 0 30px;
+        box-sizing: border-box;
+        min-width: 350px;
+        margin-right: 50px;
+        margin-bottom: 120px;
+        @media (max-width:839px){
+            margin-bottom: 30px;
+            margin-right: 0;
+        }
+    }
+
+    &__image {
+        position: absolute;
+        z-index: 2;
+        bottom: -100px;
+        right: -30px;
+        width: 350px;
+        height: 453px;
+        @media (max-width:839px){
+            display: none;
+        }
+    }
+
+    &__background {
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__text {
+        flex: 1;
+        min-width: 350px;
+        @media (max-width:839px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    &__paragraph {
+        font-family: Fira Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: #222222;
+        opacity: 0.7;
+    }
+
+    &__item{
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        &-text{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #000000;
+            margin-left: 30px;
+        }
+        &-icon{
+            width: 54px;
+            height: 54px;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            &_result{
+                background: #e5e5e5 url('../images/100.svg');
+                background-size: 20px;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            &_design{
+                background: #e5e5e5 url('../images/bag.svg');
+                background-size: 20px;
+                background-position: center;
+                background-repeat: no-repeat;                
+            }
+        }
+    }
+}
