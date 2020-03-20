@@ -1,0 +1,14 @@
+@import './common.blocks/button/button.css';
+@import './common.blocks/icon/icon.css';
+@import './common.blocks/link/link.css';
+@import './common.blocks/logo/logo.css';
+@import './common.blocks/page/page.css';
+@import './common.blocks/text/text.css';
+@import './common.blocks/title/title.css';
+
+@import './common.blocks/about/about.css';
+@import './common.blocks/features/features.css';
+@import './common.blocks/footer/footer.css';
+@import './common.blocks/header/header.css';
+@import './common.blocks/hero/hero.css';
+@import './common.blocks/prices/prices.css';

@@ -1,0 +1,10 @@
+.header__nav-list{
+    list-style: none;
+    padding: 0;
+}
+
+@media (min-width: 1024px){
+    .header__nav-list{
+        display: flex;
+    }
+}

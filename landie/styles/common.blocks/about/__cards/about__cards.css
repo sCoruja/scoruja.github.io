@@ -1,0 +1,17 @@
+.about__cards{
+    
+}
+
+@media (min-width:768px){
+    .about__cards{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1024px){
+    .about__cards{
+        justify-content: flex-start;
+        margin-top: 80px;
+    }
+}

@@ -1,0 +1,17 @@
+.about__card{
+    text-align: center;
+    padding: 8px 0;
+}
+
+@media (min-width:768px){
+    .about__card{
+        padding: 0 32px;
+    }
+}
+
+@media (min-width: 1024px){
+    .about__card{
+        padding: 0;
+        text-align: left;
+    }
+}

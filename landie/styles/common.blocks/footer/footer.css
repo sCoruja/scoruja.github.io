@@ -1,0 +1,34 @@
+@import './__button/footer__button.css';
+@import './__copyright/footer__copyright.css';
+@import './__info/footer__info.css';
+@import './__item/footer__item.css';
+@import './__link/footer__link.css';
+@import './__links/footer__links.css';
+@import './__list/footer__list.css';
+@import './__logo/footer__logo.css';
+@import './__nav/footer__nav.css';
+@import './__social-link/footer__social-link.css';
+@import './__social-links-item/footer__social-links-item.css';
+@import './__social-links/footer__social-links.css';
+@import './__container/footer__container.css';
+
+.footer {
+    padding: 8px;
+    background: #E7ECFF;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: column-reverse;
+        padding: 32px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        padding: 62px 0 26px;
+    }
+}

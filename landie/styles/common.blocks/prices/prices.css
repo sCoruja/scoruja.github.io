@@ -1,0 +1,19 @@
+@import './__button/prices__button.css';
+@import './__kit-name/prices__kit-name.css';
+@import './__paragraph/prices__paragraph.css';
+@import './__price-value/prices__price-value.css';
+@import './__section-background/prices__section-backround.css';
+@import './__tagline/prices__tagline.css';
+@import './__text-background/prices__text-background.css';
+@import './__title/prices__title.css';
+
+.prices {
+    padding: 16px 8px;
+    position: relative;
+}
+
+@media (min-width: 1024px){
+    .prices{
+        padding: 248px 0 265px;
+    }
+}

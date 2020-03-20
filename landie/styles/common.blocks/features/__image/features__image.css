@@ -1,0 +1,19 @@
+.features__image {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .features__image {
+        width: calc(50% - 16px)
+    }
+}
+
+@media (min-width: 1024px){
+    .features__image{
+        margin: 0 auto;
+        position: relative; /*pixel perfect*/
+        left: -20px;
+        width: auto;
+    }
+
+}

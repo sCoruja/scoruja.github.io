@@ -1,0 +1,10 @@
+.header__nav-item{
+    border-bottom: 1px solid #CDD1D4;
+}
+
+@media (min-width: 1024px){
+    .header__nav-item{
+        border: none;
+        margin-right: 60px;
+    }
+}

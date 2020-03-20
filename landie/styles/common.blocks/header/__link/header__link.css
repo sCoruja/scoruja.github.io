@@ -1,0 +1,11 @@
+.header__link {
+    font-size: 2rem;
+    line-height: 1.71;
+    color: #505F98;
+}
+
+@media (min-width: 1024px){ 
+    .header__link{
+        font-size: 0.875rem;
+    }
+}

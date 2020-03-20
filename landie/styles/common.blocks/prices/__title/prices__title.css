@@ -1,0 +1,9 @@
+.prices__title{
+    text-align: center;    
+}
+
+@media (min-width: 768px){
+    .prices__title{
+        margin-bottom: 16px;
+    }
+}

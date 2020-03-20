@@ -1,0 +1,19 @@
+.hero__buttons{
+    padding-bottom: 16px;
+}
+
+@media (min-width:768px){
+    .hero__buttons{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 32px;
+    }
+}
+
+@media (min-width:1024px){
+    .hero__buttons{
+        margin-top: 60px;
+        justify-content: start;
+        padding-right: 0;
+    }
+}

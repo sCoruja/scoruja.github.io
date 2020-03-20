@@ -1,0 +1,15 @@
+.about__paragraph{
+    padding: 8px 0;
+}
+@media (min-width:768px){
+    .about__paragraph{
+        padding: 8px 32px;
+    }
+}
+
+@media (min-width: 1024px){
+    .about__paragraph{
+        padding: 0;
+        padding-bottom: 10px;
+    }
+}

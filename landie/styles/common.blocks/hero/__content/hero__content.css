@@ -1,0 +1,11 @@
+.hero__content {}
+
+@media (min-width: 1024px) {
+    .hero__content {
+        box-sizing: border-box;
+        max-width: 1110px;
+        width: 100%;
+        margin: 0 auto;
+        padding-right: 40%;
+    }
+}

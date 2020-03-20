@@ -1,0 +1,14 @@
+.about__card-text {
+    font-size: .75rem;
+    line-height: 1.5;
+    color: #5D6970;
+    padding: 0 16px;
+}
+
+@media (min-width: 1024px){
+    .about__card-text{
+        padding: 0;
+        padding-right: 30px;
+        margin: 0;
+    }
+}

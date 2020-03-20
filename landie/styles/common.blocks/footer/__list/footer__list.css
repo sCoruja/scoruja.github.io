@@ -1,0 +1,12 @@
+.footer__list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footer__list {
+        display: flex;
+        margin: 0;
+    }
+}

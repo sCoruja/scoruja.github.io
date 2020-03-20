@@ -1,0 +1,27 @@
+.hero__subtitle {
+    font-size: 1.125rem;
+    line-height: 1.67;
+    color: #505F98;
+    padding: 0 8px;
+}
+
+@media (min-width: 768px) {
+    .hero__subtitle {
+        padding: 0 32px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero__subtitle {
+        padding: 0;
+        margin: 0;
+        padding-right: 70px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .hero__subtitle {
+        padding-right: 20px;
+    }
+}

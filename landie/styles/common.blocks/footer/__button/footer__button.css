@@ -1,0 +1,11 @@
+.footer__button{
+    display: none;
+}
+
+
+@media (min-width: 768px){
+    .footer__button{
+        display: block;
+        justify-self: self-end;
+    }
+}

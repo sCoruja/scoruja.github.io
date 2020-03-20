@@ -1,0 +1,13 @@
+.prices__kit-name {
+    font-size: 1rem;
+    line-height: 1.62;
+    text-align: center;
+    color: #222F65;
+    margin: 0;
+}
+
+@media (min-width:768px) {
+    .prices__kit-name {
+        margin-bottom: 60px;
+    }
+}

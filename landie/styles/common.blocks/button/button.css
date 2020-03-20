@@ -1,0 +1,19 @@
+@import './_size/button_size_large.css';
+@import './_size/button_size_medium.css';
+@import './_size/button_size_small.css';
+@import './_theme/button_theme_dark.css';
+@import './_theme/button_theme_light.css';
+    
+.button {
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px 40px;
+    transition: ease .5s;
+}
+
+.button:hover{
+    transform: scale(1.05);
+}

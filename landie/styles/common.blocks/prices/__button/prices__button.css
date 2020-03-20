@@ -1,0 +1,12 @@
+.prices__button{
+    display: block;
+    padding: 8px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+@media (min-width: 1024px){
+    .prices__button{
+        padding: 4px 8px;
+    }
+}

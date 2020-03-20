@@ -1,0 +1,10 @@
+.features__title{
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    .features__title{
+        margin-bottom: 16px;
+        text-align: left;
+    }
+}

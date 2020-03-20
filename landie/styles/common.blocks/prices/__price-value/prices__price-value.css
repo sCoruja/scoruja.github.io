@@ -1,0 +1,10 @@
+.prices__price-value {
+    font-weight: 500;
+    font-size: 3.125rem;
+    line-height: 1.32;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #222F65;
+    margin: 8px 0 0;
+
+}

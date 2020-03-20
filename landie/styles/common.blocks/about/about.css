@@ -1,0 +1,28 @@
+@import './__card-image/about__card-image.css';
+@import './__card-text/about__card-text.css';
+@import './__card-title/about__card-title.css';
+@import './__card/about__card.css';
+@import './__cards/about__cards.css';
+@import './__content/about__content.css';
+@import './__card-image/about__card-image.css';
+@import './__paragraph/about__paragraph.css';
+@import './__title/about__title.css';
+@import './__image/about__image.css';
+
+.about{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 8px;
+}
+@media (min-width: 768px){
+    .about{
+        padding: 32px;
+    }
+}
+
+@media (min-width: 1024px){
+    .about{
+        display: flex;
+        padding: 230px 0 132px;
+    }
+}

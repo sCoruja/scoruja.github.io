@@ -1,0 +1,25 @@
+.hero__image {
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 45px;
+    position: relative;
+    max-height: 600px;
+}
+
+@media (min-width: 768px){
+    .hero__image{
+        right: -32px;
+    }
+}
+
+@media (min-width: 1024px){
+    .hero__image{
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        bottom: -75px;
+        width: 50%;
+        max-width: 650px;
+        max-height: unset;
+    }
+}

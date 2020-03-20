@@ -1,0 +1,11 @@
+.prices__paragraph{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .prices__paragraph{
+        margin-bottom: 36px;
+    }
+}

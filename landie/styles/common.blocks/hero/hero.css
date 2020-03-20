@@ -1,0 +1,24 @@
+@import './__background/hero__backgroundcs.css';
+@import './__button/hero__button.css';
+@import './__buttons/hero__buttons.css';
+@import './__content/hero__content.css';
+@import './__image/hero__image.css';
+@import './__subtitle/hero__subtitle.css';
+@import './__title/hero__title.css';
+
+.hero{
+    position: relative;
+}
+
+@media (min-width: 768px){
+    .hero{
+        padding: 32px;
+    }
+}
+
+@media (min-width: 1024px){
+    .hero{
+        display: flex;
+        padding: 235px 32px;
+    }
+}

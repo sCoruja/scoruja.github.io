@@ -1,0 +1,7 @@
+.header__logo{
+}
+@media (min-width:1024px){
+    .header__logo{
+        justify-self: center;
+    }
+}

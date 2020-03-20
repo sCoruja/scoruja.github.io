@@ -1,0 +1,15 @@
+.features__text {
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .features__text {
+        width: calc(50% - 16px)
+    }
+}
+
+@media (min-width: 1024px){
+.features__text{
+    padding-left: 90px;
+}
+}

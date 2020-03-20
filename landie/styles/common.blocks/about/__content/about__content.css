@@ -1,0 +1,9 @@
+.about__content{
+    
+}
+
+@media (min-width: 1024px){
+    .about__content{
+        padding-top: 48px;
+    }
+}

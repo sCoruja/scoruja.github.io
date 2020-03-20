@@ -1,0 +1,7 @@
+.about__card-image {}
+
+@media (min-width: 1024px) {
+    .about__card-image {
+        margin-bottom: 10px;
+    }
+}

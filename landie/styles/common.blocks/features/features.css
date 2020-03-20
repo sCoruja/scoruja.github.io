@@ -1,0 +1,24 @@
+@import './__button/feature__button.css';
+@import './__feature/features__feature.css';
+@import './__image/features__image.css';
+@import './__paragraph/features__paragraph.css';
+@import './__text/features__text.css';
+@import './__title/features__title.css';
+
+.features {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+@media (min-width:768px){
+    .features{
+        padding: 32px;
+    }
+}
+
+@media (min-width: 1024px){
+    .features{
+        padding: 67px 0;
+    }
+}

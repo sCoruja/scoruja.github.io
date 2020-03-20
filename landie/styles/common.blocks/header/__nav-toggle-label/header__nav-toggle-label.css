@@ -1,0 +1,32 @@
+.header__nav-toggle-label {
+    display: block;
+    width: 24px;
+    height: 3px;
+    background-color: #37447E;
+}
+
+.header__nav-toggle-label::before {
+    display: block;
+    content: ' ';
+    width: 24px;
+    height: 3px;
+    background-color: #37447E;
+    position: relative;
+    bottom: 6px;
+}
+
+.header__nav-toggle-label::after {
+    display: block;
+    content: ' ';
+    width: 24px;
+    height: 3px;
+    background-color: #37447E;
+    position: relative;
+    top: 3px;
+}
+
+@media (min-width:1024px){
+    .header__nav-toggle-label{
+        display: none;
+    }
+}

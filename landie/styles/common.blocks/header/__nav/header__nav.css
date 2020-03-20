@@ -1,0 +1,29 @@
+.header__nav{
+    position: fixed;
+    z-index: 5;
+    right: -1000px;
+    transition: right ease .5s;
+}
+
+.header__nav-toggle-checkbox:checked~.header__nav{
+    display: block;
+    top: 40px;
+    right: -8px;
+    background-color: #F3F6FF;
+    height: 100vh;
+    width: 100vw;
+    padding: 16px;
+    text-align: right;
+    width: 100%;
+}
+
+@media (min-width: 1024px){
+    .header__nav{
+        position: relative;
+        display: block;
+        right: 0;
+    }
+    .header__nav-toggle-checkbox:checked~.header__nav{
+        top: 0;
+    }
+}

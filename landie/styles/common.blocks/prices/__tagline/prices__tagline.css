@@ -1,0 +1,13 @@
+.prices__tagline {
+    font-size: .875rem;
+    line-height: 1.71;
+    text-align: center;
+    color: #5D6970;
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px){
+    .prices__tagline{
+        margin-bottom: 12px;
+    }
+}

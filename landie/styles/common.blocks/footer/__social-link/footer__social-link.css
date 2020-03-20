@@ -1,0 +1,20 @@
+.footer__social-link {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 32px;
+    height: 32px;
+    transition: ease .5s;
+}
+
+@media (min-width: 768px) {
+    .footer__social-link {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.footer__social-link:hover{
+    transform: scale(1.1);
+}

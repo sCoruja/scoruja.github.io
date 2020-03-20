@@ -1,0 +1,18 @@
+.hero__button{
+    display: block;
+    margin: 16px;
+}
+
+@media (min-width:768px){
+    .hero__button{
+        margin: 0 16px;
+        min-width: 189px;
+    }
+}
+
+@media (min-width: 1024px){
+    .hero__button{
+        margin: 0;
+        margin-right: 30px;
+    }
+}

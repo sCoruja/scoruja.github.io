@@ -1,0 +1,33 @@
+@import './__button/header__button.css';
+@import './__link/header__link.css';
+@import './__logo/header__logo.css';
+@import './__nav-item/header__nav-item.css';
+@import './__nav-list/header__nav-list.css';
+@import './__nav-toggle-checkbox/header__nav-toggle-checkbox.css';
+@import './__nav-toggle-label/header__nav-toggle-label.css';
+@import './__nav-toggle/header__nav-toggle.css';
+@import './__nav/header__nav.css';
+
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+@media (min-width:768px){
+    .header{
+        padding: 8px 32px;
+    }
+}
+
+@media (min-width: 1024px){
+    .header{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 4px;
+    }
+}
