@@ -1,10 +1,12 @@
 .features__text {
     box-sizing: border-box;
+    margin-bottom: 32px;
 }
 
 @media (min-width: 768px) {
     .features__text {
-        width: calc(50% - 16px)
+        width: calc(50% - 16px);
+        margin-bottom: 0;
     }
 }
 

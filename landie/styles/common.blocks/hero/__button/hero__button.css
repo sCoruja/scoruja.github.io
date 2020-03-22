@@ -1,11 +1,11 @@
 .hero__button{
     display: block;
-    margin: 16px;
+    margin: 16px 32px;
 }
 
 @media (min-width:768px){
     .hero__button{
-        margin: 0 16px;
+        margin: 0 32px;
         min-width: 189px;
     }
 }

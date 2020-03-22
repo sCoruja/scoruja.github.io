@@ -9,3 +9,9 @@
         padding-right: 40%;
     }
 }
+
+@media (min-width:1440px) {
+    .hero__content {
+        padding-right: 550px;
+    }
+}

@@ -12,12 +12,7 @@
 .about{
     max-width: 1110px;
     margin: 0 auto;
-    padding: 8px;
-}
-@media (min-width: 768px){
-    .about{
-        padding: 32px;
-    }
+    padding: 32px;
 }
 
 @media (min-width: 1024px){

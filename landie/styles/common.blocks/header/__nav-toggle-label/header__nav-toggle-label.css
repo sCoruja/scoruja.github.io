@@ -3,6 +3,7 @@
     width: 24px;
     height: 3px;
     background-color: #37447E;
+    transition: ease .5s;
 }
 
 .header__nav-toggle-label::before {
@@ -13,6 +14,7 @@
     background-color: #37447E;
     position: relative;
     bottom: 6px;
+    transition: ease .5s;
 }
 
 .header__nav-toggle-label::after {
@@ -23,10 +25,24 @@
     background-color: #37447E;
     position: relative;
     top: 3px;
+    transition: ease .5s;
 }
 
-@media (min-width:1024px){
-    .header__nav-toggle-label{
+.header__nav-toggle-checkbox:checked~.header__nav-toggle-label {
+    transform: rotate(-45deg);
+}
+
+.header__nav-toggle-checkbox:checked~.header__nav-toggle-label::before {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+.header__nav-toggle-checkbox:checked~.header__nav-toggle-label::after {
+    opacity: 0;
+}
+
+@media (min-width:1024px) {
+    .header__nav-toggle-label {
         display: none;
     }
 }

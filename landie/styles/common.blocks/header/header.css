@@ -13,15 +13,9 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    padding: 8px;
+    padding: 8px 32px;
     max-width: 1110px;
     margin: 0 auto;
-}
-
-@media (min-width:768px){
-    .header{
-        padding: 8px 32px;
-    }
 }
 
 @media (min-width: 1024px){

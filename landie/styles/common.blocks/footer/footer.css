@@ -13,7 +13,7 @@
 @import './__container/footer__container.css';
 
 .footer {
-    padding: 8px;
+    padding: 8px 32px;
     background: #E7ECFF;
     display: flex;
     flex-direction: column;

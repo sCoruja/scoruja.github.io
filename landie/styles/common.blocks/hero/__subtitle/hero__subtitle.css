@@ -2,13 +2,7 @@
     font-size: 1.125rem;
     line-height: 1.67;
     color: #505F98;
-    padding: 0 8px;
-}
-
-@media (min-width: 768px) {
-    .hero__subtitle {
-        padding: 0 32px;
-    }
+    padding: 0 32px;
 }
 
 @media (min-width: 1024px) {
