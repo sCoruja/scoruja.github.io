@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/form.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="block">
+      <form action="/" class="form">
+        <fieldset class="form__fieldset">
+          <div class="form__field form__plans">
+            <label class="form__label form__label_type_plan label">
+              <span class="label__title"
+                ><div class="form__radio-icon"></div>
+                <input
+                  class="form__input form__input_type_radio"
+                  type="radio"
+                  name="plan"
+                  value="0"
+                  checked
+                />
+                <div class="form__radio-icon"></div>
+                Plan #1</span
+              >
+              <span class="label__subtitle">$10 per licence</span>
+            </label>
+            <label class="form__label form__label_type_plan label">
+              <span class="label__title"
+                ><div class="form__radio-icon"></div>
+                <input
+                  class="form__input form__input_type_radio"
+                  type="radio"
+                  name="plan"
+                  value="1"
+                />
+                <div class="form__radio-icon"></div>
+                Plan #2</span
+              >
+              <span class="label__subtitle">$14 per licence</span>
+            </label>
+            <label class="form__label form__label_type_plan label">
+              <span class="label__title"
+                ><div class="form__radio-icon"></div>
+                <input
+                  class="form__input form__input_type_radio"
+                  type="radio"
+                  name="plan"
+                  value="2"
+                />
+                <div class="form__radio-icon"></div>
+                Plan #3</span
+              >
+              <span class="label__subtitle">$5 per licence</span>
+            </label>
+          </div>
+          <div class="form__field form__field_number">
+            <label class="form__label_number">
+              Number of licences:
+              <input
+                class="form__input form__input_number"
+                type="number"
+                placeholder="Number of licences"
+                value="10"
+                min="1"
+                max="99"
+              />
+            </label>
+          </div>
+          <div class="form__field form__field_submit">
+            <p class="form__total">
+              TOTAL: <span class="form__total-value">100$</span>
+            </p>
+            <button class="form__button" type="text">Buy now</button>
+
+            <p class="form__selected-plan">
+              Selected plan: <span class="form__selected-plan-value">#3</span>
+            </p>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <script src="./form.js"></script>
+  </body>
+</html>
