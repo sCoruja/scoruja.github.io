@@ -2,6 +2,8 @@
 
 Лендинги сверстанные, для закрепления навыков вёрстки с использованием HTML, CSS, SCSS
 
+2020:
+
 https://scoruja.github.io/agency
 
 https://scoruja.github.io/corporate
